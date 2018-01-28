@@ -96,7 +96,8 @@ For 32-bit targets, use "i686" in place of the "x86_64".
       mingw-w64-x86_64-hicolor-icon-theme \
       mingw-w64-x86_64-python2-cairo      \
       mingw-w64-x86_64-python2-gobject
-    pacman -S --noconfirm --needed mingw-w64-i686-python2-setuptools
+    pacman -S --noconfirm --needed mingw-w64-i686-python2-setuptools 
+    pacman -S --noconfirm --needed mingw-w64-x86_64-python2-pip
 
 ### OSX MacPorts
 
