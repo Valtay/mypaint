@@ -30,11 +30,9 @@ This has to be built from scratch for most systems.
 * [Generic libmypaint build instructions][LIB]
 * [MyPaint's Ubuntu PPA][PPA]
 
-Windows [MSYS2](http://msys2.org) users have pre-packaged options
-available:
-
-    pacman -S mingw-w64-i686-libmypaint
-    pacman -S mingw-w64-x86_64-libmypaint
+Nite that Windows [MSYS2](http://msys2.org) users have pre-packaged options
+available (mingw-w64-i686-libmypaint and mingw-w64-x86_64-libmypaint), which 
+are unsuitable are they are version 1.3.0-3:
 
 [LIBDEB]: https://github.com/mypaint/libmypaint.deb
 [LIB]: https://github.com/mypaint/libmypaint/blob/master/README.md
